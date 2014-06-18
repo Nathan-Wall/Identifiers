@@ -7,6 +7,10 @@ This module makes it easy to keep track of things that need to be kept track of 
 
 Identifiers are generated from a set of characters (by default: letters and numbers).  Each next identifier is simply the next character in the sequence.  After all single character identifiers have been exhausted, two character identifiers are used.  Then three, then four, etc.
 
+## Installation
+
+    npm install identifiers
+
 ## Usage
 
 ```js
