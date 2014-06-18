@@ -14,7 +14,7 @@ Identifiers are generated from a set of characters (by default: letters and numb
 ## Usage
 
 ```js
-var Identifiers = require('Identifiers'),
+var Identifiers = require('identifiers'),
 	identifiers = new Identifiers();
 
 for (var i = 0; i < 5; i++)
@@ -33,7 +33,7 @@ for (var i = 0; i < 5; i++)
 If identifiers should be difficult to guess, a random prefix can be added to each identifier by passing in a number specifying the length of the prefix when creating the identifiers instance.
 
 ```js
-var Identifiers = require('Identifiers'),
+var Identifiers = require('identifiers'),
 	identifiers = new Identifiers(4);
 
 for (var i = 0; i < 5; i++)
@@ -52,7 +52,7 @@ for (var i = 0; i < 5; i++)
 A custom character set can be specified as the second argument when creating the identifiers instance.
 
 ```js
-var Identifiers = require('Identifiers'),
+var Identifiers = require('identifiers'),
 	identifiers = new Identifiers(1, 'abc');
 
 for (var i = 0; i < 5; i++)

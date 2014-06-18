@@ -1,5 +1,6 @@
 var ALPHANUM = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789',
 
+	// Written with HIJS, because ... why not?
 	String = global.String,
 	create = Object.create,
 	keys = Object.keys,
