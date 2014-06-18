@@ -48,11 +48,11 @@ Identifiers.prototype = def({
 
 module.exports = def(Identifiers, {
 
-	getRandomChar: function getRandomChar(chars) {
+	getRandomChar: function getRandomChar_(chars) {
 		return getRandomChar(chars === undefined ? ALPHANUM : String(chars));
 	},
 
-	getRandomString: function getRandomString(length, chars) {
+	getRandomString: function getRandomString_(length, chars) {
 		return getRandomString(
 			chars === undefined ? ALPHANUM : String(chars),
 			length
