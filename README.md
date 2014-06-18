@@ -1,7 +1,7 @@
 Identifiers
 ===========
 
-Generates unlimited, sequencial, unique string identifiers.
+Generates unlimited, sequential, unique string identifiers.
 
 This module makes it easy to keep track of things that need to be kept track of by some sort of unique identifier.  It ensures that the identifiers generated will be unique and as small as possible with a reasonably limitless supply.
 
