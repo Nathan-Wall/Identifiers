@@ -66,7 +66,7 @@ module.exports = def(Identifiers, {
 // Implementation
 
 function reset(obj) {
-	obj._curId = [ 0 ];
+	obj._curId = sack([ 0 ]);
 }
 
 function next(obj) {
